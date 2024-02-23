@@ -1,0 +1,37 @@
+/*Crie o arquivo produtos.json e dentro dele escreva 
+uma estrutura de dados equivalente a um array de objetos, 
+onde cada objeto representa um objeto com pelo menos as seguintes 
+propriedades: id, nome, marca, categoria, preço, quantidade em estoque, 
+se o produto está ou não disponível para pronta entrega. Preencha os dados 
+com as informações de três produtos da sua escolha.*/
+
+[
+    {
+      "id": 1,
+      "nome": "Smartphone Galaxy S20",
+      "marca": "Samsung",
+      "categoria": "Eletrônicos",
+      "preco": 3999.99,
+      "quantidade_estoque": 50,
+      "pronta_entrega": true
+    },
+    {
+      "id": 2,
+      "nome": "Notebook Ideapad 3",
+      "marca": "Lenovo",
+      "categoria": "Informática",
+      "preco": 2799.90,
+      "quantidade_estoque": 30,
+      "pronta_entrega": true
+    },
+    {
+      "id": 3,
+      "nome": "Tênis Air Max 270",
+      "marca": "Nike",
+      "categoria": "Moda",
+      "preco": 599.99,
+      "quantidade_estoque": 20,
+      "pronta_entrega": false
+    }
+  ]
+  
